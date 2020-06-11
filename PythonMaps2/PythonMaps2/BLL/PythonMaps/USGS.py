@@ -82,8 +82,6 @@ class USGS_data:
 
         return ts
 
-
-
     @classmethod
     def load_by_HUC(cls, hucs,date_from,date_to, limit=None):
         # cls.__load_data()
